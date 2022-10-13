@@ -1,7 +1,6 @@
 function getComputerChoice() {
     const elements = ["rock", "paper", "scissors"];
-    return elements;
+    return elements[Math.floor(Math.random()*elements.length)]
 }
 
-console.log(getComputerChoice());
 
